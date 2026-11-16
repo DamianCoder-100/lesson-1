@@ -1,0 +1,198 @@
+
+/* =========================================
+   STOCK MARKET MASTERY ACADEMY
+   COMBINED COURSE & MODULE HEADER
+========================================= */
+
+.course-header {
+    width: 100%;
+    background: linear-gradient(135deg, #101d35, #1c3152);
+    color: #ffffff;
+    padding: 45px 20px 50px;
+    text-align: center;
+}
+
+.course-header .container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header-content {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* =========================================
+   COURSE LOGO
+========================================= */
+
+.course-logo {
+    width: 145px;
+    height: 145px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #d6a747;
+    background-color: #ffffff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.course-logo img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* =========================================
+   ACADEMY TITLE
+========================================= */
+
+.academy-title {
+    font-size: clamp(25px, 4vw, 38px);
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    color: #ffffff;
+    margin: 0 0 10px;
+}
+
+/* =========================================
+   COURSE SUBTITLE
+========================================= */
+
+.course-subtitle {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #d8e0ed;
+    margin: 0 auto;
+}
+
+/* =========================================
+   GOLD DIVIDER
+========================================= */
+
+.course-divider {
+    width: 85px;
+    height: 3px;
+    background-color: #d6a747;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+/* =========================================
+   COURSE TAGLINE
+========================================= */
+
+.course-tagline {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #e5bd65;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* =========================================
+   MODULE LABEL
+========================================= */
+
+.module-label {
+    display: inline-block;
+    margin: 35px 0 12px;
+    padding: 8px 20px;
+    background-color: #6551a3;
+    color: #ffffff;
+    border: 1px solid #a18bdc;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+/* =========================================
+   MODULE TITLE
+========================================= */
+
+.module-title {
+    font-size: clamp(25px, 4vw, 36px);
+    font-weight: 800;
+    line-height: 1.3;
+    color: #ffffff;
+    margin: 0 0 15px;
+}
+
+/* =========================================
+   MODULE DESCRIPTION
+========================================= */
+
+.header-description {
+    max-width: 780px;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #d8e0ed;
+}
+
+/* =========================================
+   RESPONSIVE DESIGN
+========================================= */
+
+@media (max-width: 768px) {
+
+    .course-header {
+        padding: 35px 18px 40px;
+    }
+
+    .course-logo {
+        width: 125px;
+        height: 125px;
+    }
+
+    .course-subtitle {
+        font-size: 14px;
+    }
+
+    .module-label {
+        margin-top: 28px;
+    }
+
+    .header-description {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .course-header {
+        padding: 30px 15px 35px;
+    }
+
+    .course-logo {
+        width: 110px;
+        height: 110px;
+        margin-bottom: 16px;
+    }
+
+    .academy-title {
+        letter-spacing: 0.5px;
+    }
+
+    .course-tagline {
+        font-size: 11px;
+        letter-spacing: 1.5px;
+    }
+
+    .module-label {
+        font-size: 11px;
+        padding: 7px 16px;
+    }
+
+    .header-description {
+        font-size: 13px;
+    }
+}
